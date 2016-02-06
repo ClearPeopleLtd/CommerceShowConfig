@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{3218B0E8-3F95-422B-B43C-D76FF949A9FF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{08EEF542-EFCA-42BA-A090-221490870985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uCommerce", "uCommerce", "{E0BC63A2-A67A-4578-BA7D-1D31203F261D}"
+	ProjectSection(SolutionItems) = preProject
+		Library\uCommerce\UCommerce.Infrastructure.dll = Library\uCommerce\UCommerce.Infrastructure.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +31,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0BC63A2-A67A-4578-BA7D-1D31203F261D} = {08EEF542-EFCA-42BA-A090-221490870985}
 	EndGlobalSection
 EndGlobal
