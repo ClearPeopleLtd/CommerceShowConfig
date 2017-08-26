@@ -1,0 +1,44 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>ClearPeople uCommerce Showconfig</PackageName>
+      <Author>Vicent Galiana</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/ClearPeople.UCommerce.Infrastructure.dll</x-item>
+        <x-item>/bin/ClearPeople.UCommerce.Website.dll</x-item>
+        <x-item>/sitecore/admin/ShowuCommerceConfig.aspx</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>ClearPeople uCommerce Showconfig</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

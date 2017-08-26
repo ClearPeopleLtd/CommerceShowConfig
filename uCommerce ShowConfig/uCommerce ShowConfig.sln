@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{554AA474-5255-4A13-962D-71F2251BF47D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{3218B0E8-3F95-422B-B43C-D76FF949A9FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore packages", "Sitecore packages", "{18892097-DEEA-432C-BA25-9FC31ADA886C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0", "1.0", "{7FD621EF-DA08-4E3A-9DB6-034BB43E85D5}"
+	ProjectSection(SolutionItems) = preProject
+		Sitecore packages\1.0\ClearPeople uCommerce Showconfig-1.0.zip = Sitecore packages\1.0\ClearPeople uCommerce Showconfig-1.0.zip
+		Sitecore packages\1.0\ClearPeople uCommerce Showconfig.xml = Sitecore packages\1.0\ClearPeople uCommerce Showconfig.xml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +25,15 @@ Global
 		{554AA474-5255-4A13-962D-71F2251BF47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{554AA474-5255-4A13-962D-71F2251BF47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{554AA474-5255-4A13-962D-71F2251BF47D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3218B0E8-3F95-422B-B43C-D76FF949A9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3218B0E8-3F95-422B-B43C-D76FF949A9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3218B0E8-3F95-422B-B43C-D76FF949A9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3218B0E8-3F95-422B-B43C-D76FF949A9FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FD621EF-DA08-4E3A-9DB6-034BB43E85D5} = {18892097-DEEA-432C-BA25-9FC31ADA886C}
 	EndGlobalSection
 EndGlobal
